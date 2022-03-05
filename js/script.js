@@ -16,9 +16,23 @@ function matilda(event) {
 
     let dob = new Date(userDob);
     let dayDob = dob.getDay()
-    let gender= document.getElementsByName("gender").value;
-    console.log(gender)
-        
+    let gender =document.getElementsByName("gender");
+    for(let i of gender){
+        if(i.checked){
+            if (i.value === "male") {
+               displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
+            } else {
+                
+            }
+        }
+    }
     
         
     };
+
+
+
+    
+    
+    
+    
