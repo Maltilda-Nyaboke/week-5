@@ -1,8 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap'); */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: fantasy;
+    font-family: 'Gravitas One', cursive;
 }
 html{
     scroll-behavior: smooth;
@@ -19,15 +20,23 @@ body{
     width: 100%;
 }
 .text h2{
-    color: #295507;
-    font-weight: bold;
+    color: #467885;
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
     margin-top: 200px;
     margin-left: 200px;
 }
 .text p{
-    margin-left: 20px;
+    margin-left: 200px;
+}
+.confirm{
+    background-color: #467885;
+    height: 2%;
+    width: 13%;
+    outline: none;
+    border: none;
+    color: white;
+    margin-top: 200px;
 }
