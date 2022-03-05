@@ -7,17 +7,27 @@
 html{
     scroll-behavior: smooth;
 }
-/* .banner{
+body{
     background-color: #EBA61F;
-    width: 100vw;
-    height: 100vh;
-} */
-/* .banner img{
-    width: 40%;
 }
-.banner h2{
+
+.banner{
+    display: flex;
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+.text h2{
     color: #295507;
     font-weight: bold;
     font-size: 60px;
-
-} */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.text p{
+    margin-left: 20px;
+}

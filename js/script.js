@@ -7,10 +7,10 @@ displayOutput = document.getElementById("revelation");
 console.log(displayOutput);
 
 //getting user date of birth
-form.addEventListener("submit",matilda);
+form.addEventListener("submit",onSubmit);
 
 //call the function
-function matilda(event) {
+function onSubmit(event) {
     event.preventDefault();
     let userDob = document.getElementById("date").value;
 
@@ -22,8 +22,11 @@ function matilda(event) {
             if (i.value === "male") {
                displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
             } else {
-                
+                displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
             }
+        }
+        if (i.value === " ") {
+            alert("kindly select gender")
         }
     }
     
