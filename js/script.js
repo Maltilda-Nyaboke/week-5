@@ -11,5 +11,12 @@ function onSubmit(event) {
     let userDob = document.getElementById("date").value;
     let dob = new Date(userDob);
     let dayDob = dob.getDay()
-    let gender= document.getElementsByName("gender").value
+    let gender= document.getElementsByName("gender").value;
+    for (let i in gender).checked{
+        if ( gender==="male") {
+            
+        }
+    }
+        
+    }
 };
