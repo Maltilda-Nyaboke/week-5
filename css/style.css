@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: fantasy;
 }
 html{
     scroll-behavior: smooth;
@@ -13,4 +14,10 @@ html{
 }
 .banner img{
     width: 40%;
+}
+.banner h2{
+    color: #295507;
+    font-weight: bold;
+    font-size: 60px;
+    
 }
