@@ -69,22 +69,25 @@ body{
 .reveal h4{
     color: white;
 }
+.first{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.second{
+    margin-left: 250px;
+}
 #submit{
     margin-left: 300px;
     margin-top: 150px;
-    background-color: green;
+    background-color: white;
     height: 10%;
     outline: none;
     border-radius: 15px;
     border: none;
     width: 130px;
+    color: #B38400;
 }
-#submit button{
-    border: 2px solid green;
-   
-   
-    outline: none;
-}
+
 #revelation{
     color: red;
     font-size: 30px;
