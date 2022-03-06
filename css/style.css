@@ -25,15 +25,23 @@ body{
     text-align: left;
     align-items: center;
     justify-content: center;
-    margin-top: 200px;
-    margin-left: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+span{
+    color: red;
 }
 .text p{
     margin-left: 200px;
     color: black;
     font-weight: 200px;
+    font-family: fantasy;
 }
-
+.confirm{
+     position: absolute;
+     bottom: 280px;
+     left: 250px;
+}
 .confirm button{
     background-color: transparent;
     border: 2px solid red;
@@ -42,7 +50,6 @@ body{
     height: 50px;
     width: 180px;
     margin-left: 900px;
-    margin-bottom: 100px;
 }
 .confirm a :hover{
     background-color: red;
