@@ -17,7 +17,7 @@ body{
     width: 100%;
 }
 .image img{
-    width: 100%;
+    width: 40vw;
 }
 .text h2{
     color: #467885;
@@ -39,4 +39,12 @@ body{
     height: 50px;
     width: 180px;
     margin-left: 900px;
+    margin-bottom: 150px;
+}
+.reveal{
+    width: 40vw;
+    height: 60vh;
+    background-color: #467885;
+    margin: auto;
+    margin-top: 300px;
 }
