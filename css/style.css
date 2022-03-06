@@ -29,8 +29,10 @@ body{
     margin-top: 100px;
     margin-left: 100px;
 }
-span{
-    color: red;
+.center{
+    color: white;
+    text-align: center;
+    margin-left: 200px;
 }
 .text p{
     margin-left: 200px;
@@ -44,28 +46,28 @@ span{
      left: 250px;
 }
 .confirm button{
-    background-color: transparent;
-    border: 2px solid red;
+    background-color: #B38400;
+    border: 2px solid #B38400;
     border-radius: 10px;
     color: black;
     height: 50px;
     width: 180px;
-    margin-left: 900px;
+    margin-left: 0px;
 }
 .confirm a :hover{
-    background-color: red;
     color: white;
     transform: 1.5;
 }
 .reveal{
-    width: 40vw;
-    height: 60vh;
-    border: 2px solid green;
+    background-color: #B38400;
+    width: 60vw;
+    height: 40vh;
     margin: auto;
     margin-top: 200px;
+    border-radius: 15px;
 }
 .reveal h4{
-    color: green;
+    color: white;
 }
 #submit{
     margin-left: 300px;
@@ -87,4 +89,3 @@ span{
     color: red;
     font-size: 30px;
 }
-#reveal ::after
