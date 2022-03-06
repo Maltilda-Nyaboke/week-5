@@ -31,12 +31,12 @@ body{
 .text p{
     margin-left: 200px;
 }
-.confirm{
+
+.confirm button{
     background-color: #467885;
-    height: 2%;
-    width: 13%;
-    outline: none;
     border: none;
     color: white;
-    margin-top: 200px;
+    height: 50px;
+    width: 180px;
+    margin-left: 900px;
 }
