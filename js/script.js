@@ -22,9 +22,11 @@ function onSubmit (event) {
             if(i.checked){
                 if (i.value === "male") {
                    displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
+                   return;
                 } else {
                     displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
-                }
+                    
+                } return;
             }else{
                 alert("select gender")
             }
