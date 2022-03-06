@@ -4,30 +4,32 @@ let form = document.getElementById("form");
 
 
 displayOutput = document.getElementById("revelation");
-console.log(displayOutput);
-
+console.log("out")
 //getting user date of birth
 form.addEventListener("submit",onSubmit);
-
+console.log("two")
 //call the function
-function onSubmit(event) {
+function onSubmit (event) {
     event.preventDefault();
     let userDob = document.getElementById("date").value;
-
-    let dob = new Date(userDob);
-    let dayDob = dob.getDay()
-    let gender =document.getElementsByName("gender");
-    for(let i of gender){
-        if(i.checked){
-            if (i.value === "male") {
-               displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
-            } else {
-                displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
+    if (userDob === "") {
+        alert("enter date of birth")
+    }else{
+        let dob = new Date(userDob);
+        let dayDob = dob.getDay();
+        let gender =document.getElementsByName("gender");
+        for(let i of gender){
+            if(i.checked){
+                if (i.value === "male") {
+                   displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
+                } else {
+                    displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
+                }
+            }else{
+                alert("select gender")
             }
         }
     }
-    
-        
     };
 
 
