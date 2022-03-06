@@ -4,7 +4,10 @@
     margin: 0;
     box-sizing: border-box;
     /* font-family: 'Gravitas One', cursive; */
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@font-face {
+    font-family: "matilda";
+    src: url(../Gotham-Font/GothamBold.ttf);
 }
 html{
     scroll-behavior: smooth;
@@ -26,8 +29,9 @@ body{
     text-align: left;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 100px;
+    font-family: "matilda",sans-serif;
 }
 .center{
     color: white;
@@ -41,9 +45,7 @@ body{
     font-family: fantasy;
 }
 .confirm{
-     position: absolute;
-     bottom: 280px;
-     left: 250px;
+    top: 100px;
 }
 .confirm button{
     background-color: #B38400;
@@ -52,7 +54,7 @@ body{
     color: black;
     height: 50px;
     width: 180px;
-    margin-left: 0px;
+    margin-left: 200px;
 }
 .confirm a :hover{
     color: white;
@@ -60,14 +62,19 @@ body{
 }
 .reveal{
     background-color: #B38400;
-    width: 60vw;
-    height: 40vh;
+    width: 40vw;
+    height: 60vh;
     margin: auto;
     margin-top: 200px;
     border-radius: 15px;
 }
 .reveal h4{
     color: white;
+    text-align: center;
+    margin-top: 120px;
+}
+.reveal p{
+    margin: 0;
 }
 .first{
     margin-left: 20px;

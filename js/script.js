@@ -11,6 +11,9 @@ console.log("two")
 //call the function
 function onSubmit (event) {
     event.preventDefault();
+    reset();
+    // testing dynamic elements
+    
     let userDob = document.getElementById("date").value;
     if (userDob === "") {
         alert("enter date of birth")
@@ -21,18 +24,20 @@ function onSubmit (event) {
         for(let i of gender){
             if(i.checked){
                 if (i.value === "male") {
-                   displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
-                   return;
-                } else {
-                    displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
-                    
-                } return;
-            }else{
-                alert("select gender")
+                    displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
+                
+                 }else if(i.value === "female"){
+                     displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
+                     
+                 }return;
+                
             }
         }
     }
     };
+    function reset() {
+        form.innerHTML = "";
+    }
 
 
 
