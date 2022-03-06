@@ -3,13 +3,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gravitas One', cursive;
+    /* font-family: 'Gravitas One', cursive; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #fff;
+    background-color: #0D0908;
 }
 
 .banner{
@@ -20,7 +21,7 @@ body{
     width: 40vw;
 }
 .text h2{
-    color: green;
+    color: #B38400;
     font-size: 60px;
     text-align: left;
     align-items: center;
@@ -33,7 +34,7 @@ span{
 }
 .text p{
     margin-left: 200px;
-    color: black;
+    color: white;
     font-weight: 200px;
     font-family: fantasy;
 }
