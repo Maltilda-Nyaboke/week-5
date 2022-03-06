@@ -33,18 +33,26 @@ body{
 }
 
 .confirm button{
-    background-color: #467885;
+    background-color: white;
     border: none;
-    color: white;
+    color: #467885;
     height: 50px;
     width: 180px;
     margin-left: 900px;
     margin-bottom: 150px;
+}
+.confirm a :hover{
+    background-color: #467885;
+    color: white;
+    transform: 1.5;
 }
 .reveal{
     width: 40vw;
     height: 60vh;
     background-color: #467885;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 200px;
+}
+.container{
+    background-color: blanchedalmond;
 }
