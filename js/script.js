@@ -25,9 +25,6 @@ function onSubmit(event) {
                 displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
             }
         }
-        if (i.value === " ") {
-            alert("kindly select gender")
-        }
     }
     
         
