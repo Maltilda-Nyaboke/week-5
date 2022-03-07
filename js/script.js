@@ -11,9 +11,6 @@ console.log("two")
 //call the function
 function onSubmit (event) {
     event.preventDefault();
-    reset();
-    // testing dynamic elements
-    
     let userDob = document.getElementById("date").value;
     if (userDob === "") {
         alert("enter date of birth")
@@ -24,9 +21,11 @@ function onSubmit (event) {
         for(let i of gender){
             if(i.checked){
                 if (i.value === "male") {
+                    reset();
                     displayOutput.innerText = (`Your Akan name is ${male[dayDob]}`) 
                 
                  }else if(i.value === "female"){
+                     reset();
                      displayOutput.innerText = (`Your Akan name is ${female[dayDob]}`) 
                      
                  }return;
