@@ -129,17 +129,3 @@ input[type=date]{
     color: #B38400;
     width: 130px;
 }
-@media only screen and (min-width: 405px) {
-    .image{
-    margin-right: 150px;
-    margin-top: 250px;
-    }
-    .center{
-        text-align: center;
-        margin-left: 0;
-
-    }
-    .text p{
-        margin-top: 200px;
-    }
-}
